@@ -3,6 +3,7 @@ package com.luno.softone.springcloudprovidedemo.controller;
 import com.luno.softone.springcloudprovidedemo.dto.HelloMessageDTO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -20,9 +21,13 @@ public class HelloController {
 
     private static final Logger log = LoggerFactory.getLogger(HelloController.class);
 
+    @Value("${name}")
+    private String name;
+
+
     @GetMapping("/")
     public String home() {
-        return "hello .....";
+        return "hello ....." + name;
     }
 
 
