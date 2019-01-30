@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @ClassName: HelloController
  * @Reason: TODO ADD REASON(可选)
  * @date: 2018年12月19日 16:25
- * @company:宝尊电商
+ * @company:
  * @since JDK 1.8
  */
 @RestController

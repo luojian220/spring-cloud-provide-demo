@@ -6,7 +6,7 @@ package com.luno.softone.springcloudprovidedemo.config;
  * @ClassName: User
  * @Reason: TODO ADD REASON(可选)
  * @date: 2018年12月13日 13:58
- * @company:宝尊电商
+ * @company:
  * @since JDK 1.8
  */
 public class User {

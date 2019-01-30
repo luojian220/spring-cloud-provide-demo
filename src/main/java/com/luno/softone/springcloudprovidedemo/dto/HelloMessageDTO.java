@@ -6,7 +6,7 @@ package com.luno.softone.springcloudprovidedemo.dto;
  * @ClassName: HelloMessageDTO
  * @Reason: TODO ADD REASON(可选)
  * @date: 2018年12月19日 16:27
- * @company:宝尊电商
+ * @company:
  * @since JDK 1.8
  */
 public class HelloMessageDTO {
